@@ -1,0 +1,67 @@
+
+aside{
+    background-color: #004561;
+    height: 96%;
+    width: 15%;
+    position:absolute;
+    top: 0;
+   padding: 15px;
+}
+
+aside ul{
+    list-style: none; 
+}
+
+aside ul li{
+    margin: 20px;
+}
+aside ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+nav{
+
+    width: 85%;
+    background-color: slategrey;
+    height: 40px;
+    margin-left: 15%;
+    margin-top: -20px;
+  
+}
+
+nav ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    align-items: center;
+    justify-content: end;
+    margin-right: 5%;
+  
+}
+
+.buttons {
+position: absolute;
+right: 0;
+}
+button{
+    margin: 15px;
+    padding: 5px;
+    background-color: #05436f;
+    color: white;
+}
+
+.main{
+    margin: 0 auto;
+    width: 50%;
+    border: 1px solid transparent;
+   border-radius: 32px;
+   box-shadow:  0 4px 8px 0  rgb(58, 57, 57);
+}
+.buscar,
+select{
+   width: 40% !important;
+   height: 25px !important;
+ 
+}

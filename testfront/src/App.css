@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+  color: #05436f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(#004561,#0097c0);
+}
+
+.login{
+  border: 1px solid transparent;
+  border-radius: 23px;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px; 
+  height: 80%;
+  background-color: #f4f4f4;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input[type=text],
+input[type=password]
+{
+  height: 40px;
+  width: 100%;
+}
+
+input[type=submit],
+.register{
+  height: 40px;
+  width: 45%;
+  color: rgb(167, 158, 158);
+  margin: 5px;
+  border: transparent;
+  cursor: pointer;
+}
+
+input[type=submit]{
+  background-color: #05436f;
+ 
+}
+
+.register{
+  border: 1px solid silver;
+}
+
+/* @media (max-width:1400px) {
+  .login{
+    width: 50% !important;
+  }
+} */
